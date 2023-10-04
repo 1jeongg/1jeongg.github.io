@@ -1,0 +1,62 @@
+# Site
+name: '코딩 원정대⛵'
+description: "I'm studying 𝐀𝐧𝐝𝐫𝐨𝐢𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭🤖 by Kotlin 𝚊𝚗𝚍 𝐒𝐩𝐫𝐢𝐧𝐠🌸 by Java"
+logo: 'assets/images/icon.png'
+favicon: 'assets/images/icon.png'
+baseurl: ''
+disqus: ''
+email: 'leena0912@pusan.ac.kr'
+mailchimp-list: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    1jeongg:
+      name:           1jeongg
+      site:           https://github.com/1jeongg
+      avatar:         assets/images/selfi.png
+      bio:            "I'm studying 𝐀𝐧𝐝𝐫𝐨𝐢𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭🤖 by Kotlin 𝚊𝚗𝚍 𝐒𝐩𝐫𝐢𝐧𝐠🌸 by Java"
+      email:          leena0912@pusan.ac.kr
+
+
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: WoeunJung Nam
+      avatar: assets/images/selfi.png
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+
+  
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

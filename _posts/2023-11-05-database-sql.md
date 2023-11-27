@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "데이터베이스 정리"
+title:  "데이터베이스 정리 (중간)"
 author: 1jeongg
 categories: [ DB ]
-image: assets/images/database.png
-tags: featured
+summary: 데이터베이스 수업을 듣고 중간고사 범위의 내용을 정리했습니다.
+tags: 
 ---
 
 ## 01. Introduction to Databsae

@@ -1,6 +1,6 @@
 # Site
 name: '코딩 원정대⛵'
-description: "I'm studying 𝐀𝐧𝐝𝐫𝐨𝐢𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭🤖 by Kotlin 𝚊𝚗𝚍 𝐒𝐩𝐫𝐢𝐧𝐠🌸 by Java"
+description: "I'm studying Android development by Kotlin and Spring by Java"
 logo: 'assets/images/icon.png'
 favicon: 'assets/images/icon.png'
 baseurl: ''
@@ -23,7 +23,7 @@ authors:
       name:           1jeongg
       site:           https://github.com/1jeongg
       avatar:         assets/images/selfi.png
-      bio:            "I'm studying 𝐀𝐧𝐝𝐫𝐨𝐢𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭🤖 by Kotlin 𝚊𝚗𝚍 𝐒𝐩𝐫𝐢𝐧𝐠🌸 by Java"
+      bio:            "I'm studying Android development by Kotlin and Spring by Java"
       email:          leena0912@pusan.ac.kr
 
 

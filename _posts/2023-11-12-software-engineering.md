@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "소프트웨어공학 정리"
+title:  "소프트웨어공학 정리 (중간)"
 author: 1jeongg
 categories: [ Software-Engineering ]
-image: assets/images/.png
+summary: 소프트웨어 공학 수업을 듣고 중간고사 범위의 내용을 정리했습니다.
 tags: 
 ---
 

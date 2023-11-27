@@ -3,8 +3,8 @@ layout: post
 title:  "프로그래밍의 종말"
 author: 1jeongg
 categories: [ 공학글, 좋은글 ]
-image: assets/images/title-good-writing.png
-tags: featured
+summary: "'프로그래밍의 종말'을 읽고 좋았던 점과 이 글에서 동의, 비동의하는 개인적인 의견을 담았습니다."
+tags: 
 ---
 
 

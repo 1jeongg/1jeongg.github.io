@@ -17,6 +17,18 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'NPSfontBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JalnanGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @import "minimal-mistakes/syntax_gruvbox.dark";
 
 :root {
@@ -1765,7 +1777,7 @@ textarea.form-control {
       -ms-user-select: none;
           user-select: none;
   border: 1px solid transparent;
-  padding: 0.45rem 1.2rem;
+  padding: 0.45rem .45rem;
   font-size: 1rem;
   line-height: 1.6;
   border-radius: 0.25rem;

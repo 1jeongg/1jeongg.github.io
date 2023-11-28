@@ -131,47 +131,34 @@ a:hover{
 .dev {
     color: #c0c0c0;
 }
+.name {
+    font-weight: 700;
+}
+
 </style>
 <div class="container">
     
     <div class="row justify-content-center">
         <div class="col-md-8">
             
-            <h4 class="font-weight-bold spanborder text-capitalize" ><span>Resume </span></h4>
-            <link rel="stylesheet" href="{{site.baseurl}}/assets/css/resume.css">
+            {% include resume-header.html %}
 
-            <div class="row">
-            <div class="col-md-5 col-sm-6 col-lg-8 header-left">
-                <h1> 남원정 </h1>
-                <h4 class = "dev"> 안드로이드 개발자</h4>
-              </div>
-            <div class="reader-right">
-                <ul class="icons no-print">
-                    <li>
-                      <a target="_blank" href="https://github.com/1jeongg" class="button button--sacnite button--round-l">
-                        <i class="fab fa-github" title="Github link"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://www.instagram.com/1_jeongg" class="button button--sacnite button--round-l">
-                        <i class="fab fa-instagram" title="Instagram link"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="https://www.youtube.com/channel/UCqbpatTcK5apUPpbKJYFC9w" class="button button--sacnite button--round-l">
-                        <i class="fab fa-youtube" title="Youtube link"></i>
-                      </a>
-                    </li>
-                  
-                </ul>
-                  <p class = contact>
-                    ✉️: <a class = contact href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-                  </p>
-                  <p class = contact>
-                    📞: 010-6775-3931
-                  </p>
-              </div>
-            </div>
+            <br>
+            <h4 class="font-weight-bold spanborder text-capitalize title" ><span>About 1jeongg </span></h4>
+            {% include resume-about.html %}
+            <br>
+            <h4 class="font-weight-bold spanborder text-capitalize title" ><span>Projects</span></h4>
+            {% include resume-project.html %}
+            <br>
+            <h4 class="font-weight-bold spanborder text-capitalize title" ><span>Awards</span></h4>
+            {% include resume-award.html %}
+            <br>
+            <h4 class="font-weight-bold spanborder text-capitalize title" ><span>Skills</span></h4>
+            {% include resume-skill.html %}
+            <br>
+            <h4 class="font-weight-bold spanborder text-capitalize title" ><span>Education</span></h4>
+            {% include resume-education.html %}
+
         </div>
     </div>
 </div>

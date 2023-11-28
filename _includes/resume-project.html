@@ -1,0 +1,100 @@
+<style>
+    .role {
+  display: block;
+}
+
+.project {
+  padding: 1.5rem 0;
+}
+
+.project:first-child {
+  padding-top: 0;
+}
+
+.time {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.mytime {
+    font-size: 0.8rem;
+    color:gray
+}
+.row-left {
+  flex-basis: 1;
+  padding-right: 1rem;
+  flex-shrink: 0;
+}
+
+.row-right {
+  flex-grow: 1;
+}
+.pj-name{
+    font-family: 'SOYOMapleBoldTTF';
+}
+
+.pj-title{
+    font-weight: 700;
+}
+.mul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.mul > li {
+  position: relative;
+  padding: 0.2rem 0 0.2rem 1rem;
+}
+.mul > li:before {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  content: "•";
+  color: #3a7bd5;
+}
+.mytags {
+    margin-top: 20px;
+}
+.mytags > a {
+    color: #177dfa;
+    border-color: #177dfa;
+    margin: 3px;
+    
+}
+.mytags > a:hover {
+    background-color:  #177dfa;
+}
+</style>
+<!--아이고에 대한 내용(역순으로 만들 예정)-->
+<div class="row">
+    <div class="col-md-4">
+
+      <h3 class = "pj-name">아이고(I-GO)</h3>
+      <span class="role">Android Developer</span>
+      <span class ="mytime"> <time datetime="2022-07">2022.07</time> - 2022.10 </span>
+      
+      <div class = "mytags">
+        <a class="btn btn-outline-success btn-sm btn-round text-capitalize smoothscroll" href="https://github.com/igo-organization/igo-Android" >Github</a>
+        <a class="btn btn-outline-success btn-sm btn-round text-capitalize smoothscroll" href="https://www.youtube.com/watch?v=-5HdFFgwsoU&themeRefresh=1" >동작영상</a>
+        <a class="btn btn-outline-success btn-sm btn-round text-capitalize smoothscroll" href="https://play.google.com/store/apps/details?id=com.igoapp.i_go" >구글 플레이 스토어</a>
+      </div>
+
+    </div>
+    <div class="col-md-8">
+      <div class="project">
+        
+        <h5 class = "pj-title">Description</h5>
+        <p>
+            의료진, 환자 간 정확한 위치를 파악하여 부족한 전문 인력을 지원하기 위해
+            UWB를 활용한 위치기반 호출 시스템, 아이고(I-GO)를 만들었습니다.
+        </p>
+        <h5 class = "pj-title">What did I do</h5>
+        <ul class = "mul">
+          <li> FCM 서버를 통한 푸시 알림 전송 </li>
+          <li> 병원, 의료진, 환자 정보 저장 및 조회 </li>
+          <li> 환자 위치 정보 제공 </li>
+        </ul>
+        <h5 class = "pj-title">Tech Stack</h5>
+        <p>Android, Kotlin, Jetpack Compose, Retrofit2, Firebase Cloud Message</p>
+      </div>
+    </div>
+</div>

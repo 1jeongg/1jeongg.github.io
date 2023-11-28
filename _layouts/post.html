@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div class="container">
+
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
@@ -10,7 +10,7 @@ layout: default
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
-                          <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">#{{ category | downcase }}</a>
+                          <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html?category={{ category | downcase }}"><span  class="tag" data-tag="{{category | downcase}}">#{{ category | downcase }}</span></a>
                         {% endfor %}
                         </span>
 					</p>
@@ -129,6 +129,14 @@ layout: default
         
         
 	</div>
+	<div class="container">
+		<script src="https://utteranc.es/client.js"
+			repo="1jeongg/1jeongg.github.io"
+			issue-term="url"
+			theme="github-light"
+			crossorigin="anonymous"
+			async>
+	</script>
 </div>
 
 

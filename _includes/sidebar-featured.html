@@ -2,20 +2,18 @@
     <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
     <ol class="list-featured">				
         {% for post in site.tags.featured %}                
-            <li class="mb-4">
-            <span>
+            <li class="mb-3">
                 <h6 class="font-weight-bold">
                     <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
                 </h6>
-                <span class="d-block text-muted">
-                    <span class="catlist">
-                    {% for category in post.categories %}
-                    <a class="btn btn-outline-success btn-sm btn-round ml-2 text-capitalize smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">#{{ category }}</a>
-                    {% endfor %}
-                    </span>
-                </span>
-            </span>
+                
             </li>                
         {% endfor %}   
     </ol>
+    <br>
+    <h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
+    {% for category in site.categories %} 
+
+    <a class="h4 btn btn-outline-success btn-sm btn-round ml-2 text-capitalize smoothscroll"  href="{{site.baseurl}}/categories.html?category={{ category[0] | downcase }}" ><span class = "tag" data-tag="{{category[0] | downcase}}">#{{ category[0] }}</span></a>
+    {% endfor %}
 </div> 

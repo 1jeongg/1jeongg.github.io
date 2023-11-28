@@ -2,7 +2,7 @@
 layout: post
 title:  "카카오 테크 캠퍼스 회고"
 author: 1jeongg
-categories: [ kakao-tech-campus ]
+categories: [ kakao-tech-campus, 회고 ]
 summary: 지난 카카오 테크 캠퍼스의 1~3단계(백엔드)를 회고하며 다음 기수를 위한 글을 작성합니다.
 tags: featured
 ---

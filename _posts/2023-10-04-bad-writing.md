@@ -2,7 +2,7 @@
 layout: post
 title:  "나쁜 글 == 읽기 힘든 글"
 author: 1jeongg
-categories: [ 공학글, 나쁜글 ]
+categories: [ 공학글 ]
 summary: "'챗GPT가 할 수 없는 것 5가지... 그리고 몇가지 궁금증'를 읽고 정보의 정확성, 문법적으로 아쉬웠던 점에 대해 정리했습니다."
 tags: 
 ---

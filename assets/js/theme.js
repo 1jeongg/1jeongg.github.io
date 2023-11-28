@@ -113,9 +113,13 @@ $("[data-tag]").click((e) => {
   $(document).ready(function() {
     let currentTag = "";
     const queryTag = getQuery().category;
+    
     if (queryTag) {
       currentTag = queryTag;
       filterByTagName(currentTag);
+    }
+    else {
+        filterByTagName(" ");
     }
   });
   
@@ -123,7 +127,7 @@ $("[data-tag]").click((e) => {
   function filterByTagName(tagName) {
     $('.post-wrapper').hide();
     $('.post-wrapper').each((index, elem) => {
-      if (elem.hasAttribute(`data-${tagName}`)) {
+      if (tagName == " " || elem.hasAttribute(`data-${tagName}`)) {
         $(elem).show();
       }
     });
@@ -138,7 +142,7 @@ $("[data-tag]").click((e) => {
   //String to JSON
   function getQuery() {     
     var params = {};  
-    var url = decodeURI(window.location.search);//한글 쿼리 지원
+    var url = decodeURI(window.location.search);
     url.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
     	function(str, key, value) { 
         params[key] = value; 
@@ -146,45 +150,3 @@ $("[data-tag]").click((e) => {
     );
     return params; 
   }
-//   $(document).ready(function() {
-//     let currentTag = "";
-//     const queryTag = getQuery().category;
-//     if (queryTag) {
-//       currentTag = queryTag;
-//       filterByTagName(currentTag)
-//     }
-//   });
-  
-
-// // //Smooth on external page
-// $(function() {
-//   setTimeout(function() {
-//     if (location.hash) {
-//       /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
-//       window.scrollTo(0, 0);
-//       target = location.hash.split('#');
-//       smoothScrollTo($('#'+target[1]));
-//     }
-//   }, 1);
-
-//   //taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
-//   $('a[href*=\\#]:not([href=\\#])').click(function() {
-//     console.log(this.hash);
-//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-//       smoothScrollTo($(this.hash));
-//       return false;
-//     }
-//   });
-
-//   function smoothScrollTo(target) {
-    
-//     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//     console.log(target);
-   
-//     if (target.length) {
-//       $('html,body').animate({
-//         scrollTop: target.offset().top
-//       }, 1000);
-//     }
-//   }
-//  });

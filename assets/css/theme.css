@@ -176,7 +176,7 @@ a.text-dark:hover {
 	border-color:transparent;
 }
 .btn-link.btn-lightblue {
-	color:#E8F2FF;
+	color:#D0E5FF;
 	border-color:transparent;
 }
 .btn-white {
@@ -386,7 +386,7 @@ a.text-dark:hover {
 	fill:#fbb500 !important;
 }
 .bg-lightblue {
-	fill:#E8F2FF !important;
+	fill:#D0E5FF !important;
 }
 .card .date {
 	position:absolute;
@@ -609,8 +609,8 @@ a.text-dark:hover {
 }
 .alert-lightblue {
 	color:#fff;
-	background-color:#E8F2FF;
-	border-color:#E8F2FF;
+	background-color:#D0E5FF;
+	border-color:#D0E5FF;
 }
 .alert-lightblue hr {
 	border-top-color:#d7eade;
@@ -703,7 +703,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 .spanborder {
 	color: #a7cfff;
-	border-bottom:1px solid #E8F2FF;
+	border-bottom:1px solid #D0E5FF;
 	margin-bottom:2rem;
 }
 .spanborder span {

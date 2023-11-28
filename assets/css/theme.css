@@ -176,7 +176,7 @@ a.text-dark:hover {
 	border-color:transparent;
 }
 .btn-link.btn-lightblue {
-	color:#e8f3ec;
+	color:#E8F2FF;
 	border-color:transparent;
 }
 .btn-white {
@@ -209,7 +209,7 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family: "SOYOMapleBoldTTF","SUITE-Regular", "Georgia","Times New Roman",serif;
+    font-family: "NPSfontBold","SUITE-Regular", "Georgia","Times New Roman",serif;
 }
 .dropdown-item {
 	font-weight:400;
@@ -304,8 +304,8 @@ a.text-dark:hover {
 		right:0;
 	}
     .jumbotron-home h1 {
-        font-family: "SUITE-Regular", Georgia,Times,"Times New Roman",serif;
-        font-size: 2.4rem;
+        font-family: "SOYOMapleBoldTTF", "SUITE-Regular", Georgia,Times,"Times New Roman",serif;
+        font-size: 1.75rem;
         font-weight: 700;
         line-height: 1.1;
     }
@@ -386,7 +386,7 @@ a.text-dark:hover {
 	fill:#fbb500 !important;
 }
 .bg-lightblue {
-	fill:#e8f3ec !important;
+	fill:#E8F2FF !important;
 }
 .card .date {
 	position:absolute;
@@ -609,8 +609,8 @@ a.text-dark:hover {
 }
 .alert-lightblue {
 	color:#fff;
-	background-color:#e8f3ec;
-	border-color:#e8f3ec;
+	background-color:#E8F2FF;
+	border-color:#E8F2FF;
 }
 .alert-lightblue hr {
 	border-top-color:#d7eade;
@@ -703,7 +703,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 .spanborder {
 	color: #a7cfff;
-	border-bottom:1px solid #D0E5FF;
+	border-bottom:1px solid #E8F2FF;
 	margin-bottom:2rem;
 }
 .spanborder span {

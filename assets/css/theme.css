@@ -31,10 +31,10 @@ a,a:hover {
 	text-decoration:none;
 }
 a {
-	color:#A7CFFF;
+	color:#a7cfff;
 }
 a.text-dark:hover {
-	color:#A7CFFF !important;
+	color:#a7cfff !important;
 }
 .c-pointer:hover {
 	cursor:pointer;
@@ -112,11 +112,11 @@ a.text-dark:hover {
 	box-shadow:none;
 }
 .btn-link.btn-mblue {
-	color:#A7CFFF;
+	color:#a7cfff;
 	border-color:transparent;
 }
 .btn-link.btn-primary {
-	color:#A7CFFF;
+	color:#a7cfff;
 	border-color:transparent;
 }
 .btn-link.btn-secondary {
@@ -124,11 +124,11 @@ a.text-dark:hover {
 	border-color:transparent;
 }
 .btn-link.btn-success {
-	color:#A7CFFF;
+	color:#a7cfff;
 	border-color:transparent;
 }
 .btn-link.btn-info {
-	color:#A7CFFF;
+	color:#a7cfff;
 	border-color:transparent;
 }
 .btn-link.btn-warning {
@@ -196,14 +196,14 @@ a.text-dark:hover {
 	font-weight:400;
 }
 .navbar .highlight .nav-link {
-	color:#A7CFFF !important;
-	border:1px solid #A7CFFF;
+	color:#a7cfff !important;
+	border:1px solid #a7cfff;
 	padding:0.3rem 1rem;
 	border-radius:3px;
 	font-size:.93rem;
 }
 .navbar .highlight .nav-link:hover {
-	background:#A7CFFF;
+	background:#a7cfff;
 	color:#fff !important;
 }
 .navbar-brand {
@@ -341,16 +341,16 @@ a.text-dark:hover {
 	background-color:rgba(23,29,90,0.5);
 }
 .bg-primary {
-	fill:#A7CFFF !important;
+	fill:#a7cfff !important;
 }
 .bg-secondary {
 	fill:#7832e2 !important;
 }
 .bg-success {
-	fill:#A7CFFF !important;
+	fill:#a7cfff !important;
 }
 .bg-info {
-	fill:#A7CFFF !important;
+	fill:#a7cfff !important;
 }
 .bg-warning {
 	fill:#ffde03 !important;
@@ -414,7 +414,7 @@ a.text-dark:hover {
 }
 .card a:hover {
 	text-decoration:none;
-	color:#A7CFFF;
+	color:#a7cfff;
 }
 .card-pricing .card ul li {
 	margin-bottom:1.5rem;
@@ -444,11 +444,11 @@ a.text-dark:hover {
 }
 .alert-primary {
 	color:#fff;
-	background-color:#A7CFFF;
-	border-color:#A7CFFF;
+	background-color:#a7cfff;
+	border-color:#a7cfff;
 }
 .alert-primary hr {
-	border-top-color:#038f6a;
+	border-top-color:#a7cfff;
 }
 .alert-primary .alert-link {
 	color:#e6e6e6;
@@ -466,19 +466,19 @@ a.text-dark:hover {
 }
 .alert-success {
 	color:#fff;
-	background-color:#A7CFFF;
-	border-color:#A7CFFF;
+	background-color:#a7cfff;
+	border-color:#a7cfff;
 }
 .alert-success hr {
-	border-top-color:#038f6a;
+	border-top-color:#a7cfff;
 }
 .alert-success .alert-link {
 	color:#e6e6e6;
 }
 .alert-info {
 	color:#fff;
-	background-color:#A7CFFF;
-	border-color:#A7CFFF;
+	background-color:#a7cfff;
+	border-color:#a7cfff;
 }
 .alert-info hr {
 	border-top-color:#08d29d;
@@ -702,12 +702,12 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 	border-radius:2px;
 }
 .spanborder {
-	color: #A7CFFF;
+	color: #a7cfff;
 	border-bottom:1px solid #D0E5FF;
 	margin-bottom:2rem;
 }
 .spanborder span {
-	border-bottom:1px solid #A7CFFF;
+	border-bottom:1px solid #a7cfff;
 	display:inline-block;
 	padding-bottom:20px;
 	margin-bottom:-1px;

@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-
+<div class = "container">
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
@@ -17,9 +17,9 @@ layout: default
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<div class="d-flex align-items-center">
                         {% if author.avatar %}
-                        <img class="rounded-circle" src="{{site.baseurl}}/assets/images/selfi.png" alt="{{author.name}}" width="70" height="70"/>
+                        <img  src="{{site.baseurl}}/assets/images/avatar.jpg" alt="{{author.name}}" width="90" />
                         {% endif %}
-						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="https://www.instagram.com/1_jeongg/" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
@@ -33,7 +33,7 @@ layout: default
 		</div>
 	</div>
 </div>
-
+</div>
 
 
 
@@ -103,40 +103,42 @@ layout: default
 				</div>
 			</div> -->
             {% endif %}
-            
-            
+			<br>
+            <hr>
+			
              <!-- Author Box -->
                 {% if page.author %}				
 				<div class="row mt-5">
 					<div class="col-md-2 align-self-center">
                          {% if author.avatar %}
-                        <img class="rounded-circle" src="{{site.baseurl}}/assets/images/selfi.png" alt="{{author.name}}" width="90" height="90"/>
+                        <img src="{{site.baseurl}}/assets/images/avatar.jpg" alt="{{author.name}}" width="90" />
                         {% endif %} 
 					</div>
-					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
-						{{ author.bio }}					
+					<div class="col-md-10 pt-4">		
+                        <h5 class="font-weight-bold "><strong>Written by {{ author.name }}</strong> <span><a target="_blank" href="https://www.instagram.com/1_jeongg/" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+						<p class = "disc" >I'm studying Android development by Kotlin and Spring by Java	</p>	
 					</div>
 				</div>				
                 {% endif %}
-            
+			<br>
+
             <!-- Comments -->
             {% if page.comments != false %}
                 {% include comments.html %}
             {% endif %}
-            
+            <div class="container">
+				<script src="https://utteranc.es/client.js"
+					repo="1jeongg/1jeongg.github.io"
+					issue-term="url"
+					theme="github-light"
+					crossorigin="anonymous"
+					async>
+			</script>
 		</div>
         
         
 	</div>
-	<div class="container">
-		<script src="https://utteranc.es/client.js"
-			repo="1jeongg/1jeongg.github.io"
-			issue-term="url"
-			theme="github-light"
-			crossorigin="anonymous"
-			async>
-	</script>
+	
 </div>
 
 

@@ -22,9 +22,11 @@ authors:
     1jeongg:
       name:           1jeongg
       site:           https://github.com/1jeongg
-      avatar:         assets/images/selfi.png
+      avatar:         assets/images/avatar.png
       bio:            "I'm studying Android development by Kotlin and Spring by Java"
       email:          leena0912@pusan.ac.kr
+      twitter:        https://www.instagram.com/1_jeongg/
+
 
 
  
@@ -37,7 +39,7 @@ defaults:
     values:
       layout: post
       author: WoeunJung Nam
-      avatar: assets/images/selfi.png
+      avatar: assets/images/avatar.png
       
   # all pages
   - scope:

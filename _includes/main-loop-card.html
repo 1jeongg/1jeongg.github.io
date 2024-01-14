@@ -17,4 +17,7 @@
 </div>
 <p class="excerpt">
 	{{ post.summary | strip_html | truncate: 186}}
-</p>	
+	<br>
+	<span class="text-muted small d-block mt-2">{{ post.date | date: '%Y년 %m월 %d일' }}</span>	
+</p>
+

@@ -29,7 +29,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@import "minimal-mistakes/base16.monokai.dark";
+@import "minimal-mistakes/base16.dark";
 
 :root {
   --blue: #7832e2;

@@ -1828,12 +1828,12 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #7832e2;
-  border-color: #7832e2; }
+  background-color: #a7cfff;
+  border-color: #a7cfff; }
   .btn-secondary:hover {
     color: #fff;
-    background-color: #651dd0;
-    border-color: #5f1cc5; }
+    background-color: #177dfa;
+    border-color: #177dfa; }
   .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {

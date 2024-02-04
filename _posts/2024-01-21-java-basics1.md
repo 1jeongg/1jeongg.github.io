@@ -2,7 +2,7 @@
 layout: post
 title:  "Java Basics"
 author: 1jeongg
-categories: [ Java, Spring ]
+categories: [ Java, Spring, Kakao-Tech-Campus ]
 summary: Java의 기본 개념들과 객체 지향에 대해 작성한 글입니다.
 tags: 
 ---

@@ -1,8 +1,8 @@
 ---
 title: "코딩 원정대⛵"
 layout: default
-pagination:
-enabled: true
+pagination: 
+  enabled: true
 description: "안드로이드(Kotlin), 백엔드(Java, Spring), 기초 CS를 공부하며 정리한 내용을 기록해뒀습니다."
 ---
 
@@ -33,6 +33,7 @@ description: "안드로이드(Kotlin), 백엔드(Java, Spring), 기초 CS를 공
     </div>
 </div> 
 
+{% endif %}
 
 <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skip the first 4 posts displayed above -->
 
@@ -78,7 +79,6 @@ description: "안드로이드(Kotlin), 백엔드(Java, Spring), 기초 CS를 공
         </div>
         
     </div>
-    {% endif %}
     
     <div class="col-md-4">
         {% include sidebar-featured.html %}    

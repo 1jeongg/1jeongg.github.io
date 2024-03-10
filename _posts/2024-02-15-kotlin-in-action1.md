@@ -2,7 +2,7 @@
 layout: post
 title:  "코틀린 기초"
 author: 1jeongg
-categories: [ Android, Kotlin ]
+categories: [ Kotlin ]
 summary: "kotlin in action의 1~3장을 읽고 모르는 부분을 정리했습니다. (코틀린 소개, 코틀린 기초, 함수 정의와 호출)"
 tags: 
 ---

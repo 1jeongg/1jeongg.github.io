@@ -123,6 +123,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+ul li::marker {
+  color: #177dfa;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -170,6 +174,9 @@ dfn {
 
 b,
 strong {
+  font-weight: bolder; }
+
+bloguote > strong {
   font-weight: bolder; }
 
 small {

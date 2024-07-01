@@ -2,7 +2,7 @@
 layout: post
 title:  "카카오 테크 부트캠프 1기 합격 후기"
 author: 1jeongg
-categories: [ 스프링, 강의 ]
+categories: [ 회고 ]
 summary: 메일 수신 누락, 합격과 동시에 불합격, 최종합격과 합격포기
 tags: 
 ---

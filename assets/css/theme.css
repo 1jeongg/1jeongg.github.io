@@ -678,7 +678,7 @@ article {
 } */
 article blockquote {
 	padding-left:20px;
-	font-weight: 600;
+	font-weight: 400;
 	position:relative;
 }
 
@@ -797,4 +797,3 @@ div.a2a_full_footer {display:none;}
 		height:280px !important;
 	 }
  }
- 

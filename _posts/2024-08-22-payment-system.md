@@ -4,7 +4,7 @@ title:  "결제 시스템 무결성 보장"
 author: 1jeongg
 categories: [ 순수웨딩 ]
 summary: 토스페이먼츠의 간편 결제 기능을 추가하며, 데이터 무결성을 보장한 방법을 담았습니다. (동아리 기술 문서 발표)
-tags:
+tags: featured
 ---
 
 ## 도입 계기

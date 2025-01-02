@@ -4,7 +4,7 @@ title:  "2024년 회고"
 author: 1jeongg
 categories:
 summary: 참 많은 일들이 있었던 2024년이었습니다..
-tags:
+tags: featured
 ---
 
 ## 취업 준비

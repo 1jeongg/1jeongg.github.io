@@ -4,7 +4,7 @@ title:  "2024년 10월 현대오토에버 신입채용 최종합격 후기"
 author: 1jeongg
 categories: 
 summary: 취준 생활 끝~
-tags:
+tags: featured
 ---
 
 > 현대오토에버 채용 과정에 있었던 일과 나름의 팁을 작성했습니다.

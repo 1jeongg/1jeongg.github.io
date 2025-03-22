@@ -4,7 +4,8 @@ title:  "쿠키~🍪"
 author: 1jeongg
 categories: [ Java, Spring, Kakao-Tech-Campus ]
 summary: Cookie의 동작방식과 생성/삭제/변경 방법과 실습 코드를 정리했습니다.
-tags: 
+tags:
+published : false
 ---
 
 > 해당 내용은 카카오 테크 캠퍼스의 1단계 1주차 강의를 들으며 작성한 내용입니다.

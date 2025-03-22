@@ -4,7 +4,8 @@ title:  "자바 예외 처리"
 author: 1jeongg
 categories: [ Java, Spring, Kakao-Tech-Campus ]
 summary: 자바 예외 처리와 사용자 정의 예외 클래스와 그 활용을 다룬 내용입니다.
-tags: 
+tags:
+published : false
 ---
 
 ## **08.예외 처리는 왜 해야 하나? 자바에서 제공되는 클래스들**

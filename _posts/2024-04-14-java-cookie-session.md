@@ -4,7 +4,8 @@ title:  "세션(Session)"
 author: 1jeongg
 categories: [ Java, Spring, Kakao-Tech-Campus ]
 summary: 세션의 생성과정과 메서드, 실습 내용을 정리했습니다.
-tags: 
+tags:
+published : false
 ---
 
 > 해당 내용은 카카오 테크 캠퍼스의 1단계 1주차 강의를 들으며 작성한 내용입니다.

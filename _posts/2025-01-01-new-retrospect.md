@@ -5,6 +5,7 @@ author: 1jeongg
 categories:
 summary: 참 많은 일들이 있었던 2024년이었습니다..
 tags: featured
+published : false
 ---
 
 ## 취업 준비

@@ -5,6 +5,7 @@ author: 1jeongg
 categories: 
 summary: 취준 생활 끝~
 tags: featured
+published : false
 ---
 
 > 현대오토에버 채용 과정에 있었던 일과 나름의 팁을 작성했습니다.
